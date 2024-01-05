@@ -27,6 +27,8 @@ img {
   object-fit: cover;
 }
 
+/* --------------Task-1------------- */
+
 #categories {
   max-width: 440px;
   border-radius: 8px;
@@ -87,6 +89,8 @@ img {
   padding-bottom: 8px;
 }
 
+/* ----------------TASK-2----------------- */
+
 .gallery {
   width: 1440px;
   height: 848px;
@@ -103,6 +107,8 @@ img {
   width: calc((100% - 48px) / 3);
   flex-shrink: 0;
 }
+
+/* ------------------TASK-3------------------ */
 
 .js-text-field {
   width: 408px;
@@ -138,6 +144,8 @@ img {
   border-radius: 4px;
   border: 1px solid #808080;
 }
+
+/* ---------------TASK-4-------------------------- */
 
 .login-form {
   display: inline-flex;
@@ -193,6 +201,8 @@ img {
   background-color: #6C8CFF;
 }
 
+/* ----------------TASK-5----------------------------- */
+
 .widget {
   display: inline-flex;
   padding: 100px 88px;
@@ -230,3 +240,5 @@ img {
   line-height: 1.5;
   letter-spacing: 0.64px;
 }
+
+/* -------------TASK-6---------- */
