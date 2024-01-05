@@ -27,9 +27,23 @@ function destroyBoxes(amount) {
 }
 
 const boxesContainer = document.querySelector('#boxes');
-const createButton = document.querySelector('[data-create]');
-const destroyButton = document.querySelector('[data-destroy]');
+const createButton = document.querySelector('button[data-create]');
+const destroyButton = document.querySelector('button[data-destroy]');
 const inputAmount = document.querySelector('input');
+const controls = document.querySelector('#controls');
+
+createButton.classList.add('js-create-btn');
+destroyButton.classList.add('js-destroy-btn');
+inputAmount.classList.add('js-input-amount');
+
+const wrapperDiv = document.createElement('div');
+wrapperDiv.appendChild(controls);
+wrapperDiv.appendChild(boxesContainer);
+
+const goBack = document.querySelector('p');
+goBack.insertAdjacentElement('afterend', wrapperDiv);
+
+wrapperDiv.classList.add('js-input-boxes');
 
 createButton.addEventListener('click', function () {
   const amount = inputAmount.value;

@@ -242,3 +242,45 @@ img {
 }
 
 /* -------------TASK-6---------- */
+.js-input-boxes {
+  display: inline-flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  border-radius: 8px;
+  background-color: #FFF;
+  width: 550px;
+}
+
+#controls {
+  display: flex;
+  padding: 32px;
+  align-items: center;
+  justify-items: center;
+  gap: 16px;
+  border-radius: 8px;
+  background-color: #F6F6FE;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 8px;
+  background-color: #F6F6FE;
+  padding: 32px;
+
+
+}
+
+.js-input-amount {}
+
+.js-create-btn {}
+
+.js-destroy-btn {}
+
+.js-boxes-item {
+  flex-shrink: 0;
+}
