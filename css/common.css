@@ -49,7 +49,7 @@ img {
   gap: 16px;
 }
 
-.item-subtitle {
+.js-item-subtitle {
   margin: 0;
   color: #2E2F42;
   font-family: Montserrat;
@@ -61,7 +61,7 @@ img {
   text-align: left;
 }
 
-.item-list {
+.js-item-list {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -69,7 +69,7 @@ img {
   gap: 8px;
 }
 
-.item-list-item {
+.js-list-item {
   width: 360px;
   height: 40px;
   flex-shrink: 0;
@@ -137,5 +137,58 @@ img {
   letter-spacing: 0.64px;
   border-radius: 4px;
   border: 1px solid #808080;
+}
 
+.login-form {
+  display: inline-flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 8px;
+  background: #FFF;
+}
+
+.js-form-label {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  color: #2E2F42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.js-labels {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.js-form-btn {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: #4E75FF;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.js-form-btn:hover,
+.js-form-btn:focus {
+  background-color: #6C8CFF;
 }
