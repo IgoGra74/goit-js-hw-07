@@ -20,5 +20,5 @@ categoryItems.forEach(categoryItem => {
   });
 
   console.log(`Category: ${categoryName}`);
-  console.log(`Number of categories: ${categoryElements.length}`);
+  console.log(`Elements: ${categoryElements.length}`);
 });

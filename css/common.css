@@ -108,7 +108,7 @@ img {
 
 /* ------------------TASK-3------------------ */
 
-.js-text-field {
+/* .js-text-field {
   width: 408px;
   padding: 24px;
   border-radius: 8px;
@@ -124,7 +124,7 @@ img {
   letter-spacing: 0.96px;
   margin: 0;
   padding: 0;
-}
+} */
 
 #name-input {
   width: 360px;
@@ -239,7 +239,7 @@ img {
   background-color: #FFF;
 }
 
-.js-background-color {
+/* .js-background-color {
   color: #2E2F42;
   font-family: Montserrat;
   font-size: 16px;
@@ -247,7 +247,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.64px;
   margin: 0;
-}
+} */
 
 .change-color {
   display: flex;
@@ -265,7 +265,7 @@ img {
 }
 
 /* -------------TASK-6---------- */
-.js-input-boxes {
+/* .js-input-boxes {
   display: inline-flex;
   padding: 24px;
   flex-direction: column;
@@ -274,7 +274,7 @@ img {
   border-radius: 8px;
   background-color: #FFF;
   width: 550px;
-}
+} */
 
 #controls {
   display: flex;

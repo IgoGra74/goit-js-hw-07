@@ -24,6 +24,7 @@ const images = [
     alt: 'Zebras on Zebra',
   },
 ];
+
 const galleryList = document.querySelector('.gallery');
 
 const galleryItems = images.map(image => {
@@ -39,4 +40,5 @@ const galleryItems = images.map(image => {
   listItem.appendChild(imageElement);
   return listItem;
 });
+
 galleryList.append(...galleryItems);

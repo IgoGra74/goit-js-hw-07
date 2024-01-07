@@ -18,6 +18,3 @@ function changeBackgroundColor() {
 
 const button = document.querySelector('.change-color');
 button.addEventListener('click', changeBackgroundColor);
-
-const backgroundColor = document.querySelector('.widget p');
-backgroundColor.classList.add('js-background-color');

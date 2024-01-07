@@ -2,9 +2,6 @@ const loginForm = document.querySelector('.login-form');
 const emailInput = loginForm.elements.email;
 const passwordInput = loginForm.elements.password;
 
-emailInput.setAttribute('autocomplete', 'username');
-passwordInput.setAttribute('autocomplete', 'current-password');
-
 emailInput.classList.add('js-email-input');
 passwordInput.classList.add('js-password-input');
 
