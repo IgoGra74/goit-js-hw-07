@@ -1,4 +1,4 @@
-const categoriesList = document.querySelector('#categories');
+const categoriesList = document.getElementById('categories');
 
 const categoryItems = categoriesList.querySelectorAll('li.item');
 
